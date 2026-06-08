@@ -31,10 +31,10 @@ body{background:var(--crema);color:var(--texto);font-family:Arial,sans-serif;min
 }
 .bienvenida-inner{position:relative;z-index:1;max-width:520px}
 .brand-tag{font-size:11px;letter-spacing:.22em;color:var(--arena);text-transform:uppercase;margin-bottom:1.5rem;font-family:'Jost',sans-serif}
-.bienvenida-titulo{font-family:'Cormorant Garamond',serif;font-size:clamp(3.2rem,10vw,6.5rem);font-weight:300;color:#F5F0E6;line-height:1.05;margin-bottom:.5rem}
+.bienvenida-titulo{font-family:'Cormorant Garamond',serif;font-size:clamp(2.6rem,8vw,5.5rem);font-weight:300;color:#F5F0E6;line-height:1.1;margin-bottom:.5rem}
 .bienvenida-titulo em{color:#C8960A;font-style:italic;font-weight:500}
 .bienvenida-sub{font-size:13px;color:var(--arena);letter-spacing:.06em;margin-bottom:2rem;line-height:1.7}
-.form-campos{display:flex;flex-direction:column;gap:.75rem;width:100%;max-width:340px;margin-bottom:1.25rem}
+.form-campos{display:flex;flex-direction:column;gap:.75rem;width:100%;max-width:340px;margin:0 auto 1.25rem auto}
 .input-campo{
   width:100%;padding:12px 20px;
   background:rgba(255,255,255,.07);border:0.5px solid rgba(184,134,11,.4);
@@ -99,56 +99,55 @@ body{background:var(--crema);color:var(--texto);font-family:Arial,sans-serif;min
 .aviso{font-size:11px;color:var(--texto-tenue);text-align:center;margin-top:.75rem}
 
 /* RESULTADO */
-#p-resultado{display:none;min-height:100vh;background:linear-gradient(160deg,#F5F0E6 0%,#EDE5D8 100%)}
-.res-header{text-align:center;padding:2rem 1.5rem 1rem;border-bottom:0.5px solid rgba(184,134,11,.15)}
-.res-brand{font-family:'Raleway',sans-serif;font-size:15px;letter-spacing:.08em;margin-bottom:4px}
+#p-resultado{display:none;min-height:100vh;background:linear-gradient(160deg,#1a0a00 0%,#2d1200 40%,#1a0a00 100%)}
+.res-header{text-align:center;padding:1.25rem 1.5rem .75rem;border-bottom:0.5px solid rgba(184,134,11,.2)}
+.res-brand{font-family:'Raleway',sans-serif;font-size:15px;letter-spacing:.08em;margin-bottom:4px;color:var(--arena)}
 .res-brand span{color:var(--cafe)}
-.res-hola{font-family:'Raleway',sans-serif;font-size:clamp(1.4rem,4vw,1.8rem);color:var(--texto);margin-bottom:.25rem}
-.res-pregunta{font-family:'Raleway',sans-serif;font-size:clamp(1rem,3vw,1.2rem);font-style:italic;color:var(--texto-suave)}
+.res-hola{font-family:'Raleway',sans-serif;font-size:clamp(1.4rem,4vw,1.8rem);color:#F5F0E6;margin-bottom:.25rem}
+.res-pregunta{font-family:'Raleway',sans-serif;font-size:clamp(1rem,3vw,1.2rem);font-style:normal;color:var(--arena)}
 .res-body{max-width:560px;margin:0 auto;padding:1.5rem 1rem}
 
 /* ICC número primero */
-.res-icc-wrap{text-align:center;margin-bottom:1.5rem}
-.res-icc-pre{font-family:'Raleway',sans-serif;font-size:15px;color:var(--texto-suave);margin-bottom:4px;font-style:italic}
-.res-icc-num{font-family:'Raleway',sans-serif;font-size:clamp(4rem,12vw,5.5rem);font-weight:300;color:var(--oro);line-height:1}
+.res-icc-wrap{text-align:center;margin-bottom:0}
+.res-icc-pre{font-family:'Raleway',sans-serif;font-size:clamp(1.4rem,4vw,1.8rem);color:#F5F0E6;margin-bottom:0;font-style:normal;font-weight:400}
+.res-icc-num{font-family:'Raleway',sans-serif;font-size:clamp(4rem,12vw,5.5rem);font-weight:300;color:var(--oro);line-height:1;margin-bottom:0}
 
 /* Gráfico corazón */
-.res-canvas-wrap{display:flex;justify-content:center;margin-bottom:1.25rem}
+.res-canvas-wrap{display:flex;justify-content:center;margin-top:-1rem;margin-bottom:.5rem}
 
 /* Estados Sol/Cielo/Nube */
 .res-estados{display:flex;flex-direction:column;gap:.875rem;margin-bottom:1.5rem}
 .res-estado-item{display:flex;align-items:flex-start;gap:12px}
 .res-icono{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
-.res-estado-nombre{font-size:13px;font-weight:500;color:var(--texto);margin:0 0 3px}
-.res-estado-desc{font-size:12px;color:var(--texto-suave);line-height:1.55;margin:0}
-
+.res-estado-nombre{font-size:13px;font-weight:500;color:#F5F0E6;margin:0 0 3px}
+.res-estado-desc{font-size:12px;color:var(--arena);line-height:1.55;margin:0}
 
 /* Journey */
-.res-journey-wrap{background:#fff;border-radius:12px;padding:1.25rem;margin-bottom:1.25rem;border:0.5px solid rgba(184,134,11,.12)}
-.res-journey-titulo{font-size:10px;letter-spacing:.14em;color:var(--texto-tenue);text-transform:uppercase;margin-bottom:1rem}
+.res-journey-wrap{background:var(--crema);border-radius:12px;padding:1.25rem;margin-bottom:1.25rem;border:0.5px solid rgba(184,134,11,.25)}
+.res-journey-titulo{font-size:10px;letter-spacing:.14em;color:var(--texto-suave);text-transform:uppercase;margin-bottom:1rem}
 
 /* Botones resultado */
-.btn-mapa{width:100%;padding:14px;border-radius:24px;background:linear-gradient(135deg,var(--tierra),#A04010);border:none;color:#fff;font-family:Arial,sans-serif;font-size:13px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;margin-bottom:.75rem}
-.btn-mapa:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(139,58,15,.25)}
-.res-nota-lista{font-size:12px;color:var(--texto-tenue);line-height:1.8;padding-bottom:2rem;text-align:left;background:#fff;border-radius:10px;padding:1rem 1.25rem 1.25rem;border:0.5px solid rgba(184,134,11,.10)}
-.res-nota-lista p{font-size:11px;color:var(--texto-tenue);margin-bottom:.5rem;font-style:italic}
-.res-nota-lista li{font-size:12px;color:var(--texto-suave);margin-bottom:.375rem;list-style:none;padding-left:.5rem}
+.btn-mapa{width:100%;padding:14px;border-radius:24px;background:linear-gradient(135deg,var(--oro),#D4A010);border:none;color:#1a0a00;font-family:Arial,sans-serif;font-size:13px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;margin-bottom:.75rem}
+.btn-mapa:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(184,134,11,.35)}
+.res-nota-lista{font-size:12px;color:var(--arena);line-height:1.8;padding-bottom:2rem;text-align:left;background:rgba(255,255,255,.05);border-radius:10px;padding:1rem 1.25rem 1.25rem;border:0.5px solid rgba(184,134,11,.15)}
+.res-nota-lista p{font-size:11px;color:var(--arena);margin-bottom:.5rem;font-style:italic}
+.res-nota-lista li{font-size:12px;color:var(--arena);margin-bottom:.375rem;list-style:none;padding-left:.5rem}
 /* Indicador de guardado */
 .guardado-status{
   font-size:11px;text-align:center;padding:7px 14px;border-radius:20px;
   margin-bottom:1rem;display:none;transition:all .3s;
 }
 .guardado-status.ok{
-  display:block;background:rgba(15,110,86,.08);color:#0F6E56;
-  border:0.5px solid rgba(15,110,86,.2);
+  display:block;background:rgba(15,110,86,.15);color:#6EDBB8;
+  border:0.5px solid rgba(15,110,86,.3);
 }
 .guardado-status.error{
-  display:block;background:rgba(200,60,60,.07);color:#9B3030;
-  border:0.5px solid rgba(200,60,60,.18);
+  display:block;background:rgba(200,60,60,.12);color:#F08080;
+  border:0.5px solid rgba(200,60,60,.25);
 }
 .guardado-status.enviando{
-  display:block;background:rgba(184,134,11,.07);color:var(--texto-suave);
-  border:0.5px solid rgba(184,134,11,.18);
+  display:block;background:rgba(184,134,11,.1);color:var(--arena);
+  border:0.5px solid rgba(184,134,11,.25);
 }
 </style>
 </head>
@@ -190,6 +189,31 @@ body{background:var(--crema);color:var(--texto);font-family:Arial,sans-serif;min
     <p class="error-msg" id="error-form"></p>
     <button class="btn-iniciar" onclick="iniciar()">Comenzar mi Brújula</button>
     <p class="progreso-info">Gratis · ~15 minutos · 60 preguntas</p>
+  </div>
+</div>
+
+<!-- CONSENTIMIENTO -->
+<div id="p-consentimiento" style="display:none">
+  <div style="min-height:100vh;background:linear-gradient(160deg,#1a0a00 0%,#2d1200 40%,#1a0a00 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2rem 1.5rem;position:relative;">
+    <div style="position:relative;z-index:1;max-width:420px;width:100%;text-align:center;">
+      <p style="font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.2em;color:#C8A882;text-transform:uppercase;margin-bottom:1rem">Tu información · Tu decisión</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(1.6rem,5vw,2.4rem);font-weight:300;color:#F5F0E6;line-height:1.2;margin-bottom:.75rem">¿Cómo quieres<br><em style="color:#C8960A;font-style:italic">vivir este viaje?</em></h2>
+      <p style="font-size:12px;color:#C8A882;margin-bottom:2rem;line-height:1.7">Antes de comenzar, elige cómo deseas que se maneje tu información.</p>
+
+      <!-- Opción 1: sin guardar -->
+      <div onclick="elegirConsentimiento(false)" style="cursor:pointer;background:rgba(255,255,255,.05);border:0.5px solid rgba(184,134,11,.3);border-radius:14px;padding:1.25rem 1.5rem;margin-bottom:.875rem;text-align:left;transition:border-color .2s;" onmouseover="this.style.borderColor='rgba(184,134,11,.7)'" onmouseout="this.style.borderColor='rgba(184,134,11,.3)'">
+        <p style="font-size:18px;margin-bottom:.5rem">🔒</p>
+        <p style="font-family:'Raleway',sans-serif;font-size:14px;font-weight:500;color:#F5F0E6;margin-bottom:.4rem">Explorar sin dejar huella</p>
+        <p style="font-size:12px;color:#C8A882;line-height:1.6">Obtén tu ICC sin guardar tus respuestas. Al finalizar, la información será eliminada.</p>
+      </div>
+
+      <!-- Opción 2: guardar -->
+      <div onclick="elegirConsentimiento(true)" style="cursor:pointer;background:rgba(184,134,11,.08);border:0.5px solid rgba(184,134,11,.5);border-radius:14px;padding:1.25rem 1.5rem;text-align:left;transition:border-color .2s;" onmouseover="this.style.borderColor='rgba(184,134,11,.9)'" onmouseout="this.style.borderColor='rgba(184,134,11,.5)'">
+        <p style="font-size:18px;margin-bottom:.5rem">🗺️</p>
+        <p style="font-family:'Raleway',sans-serif;font-size:14px;font-weight:500;color:#F5F0E6;margin-bottom:.4rem">Continuar el viaje</p>
+        <p style="font-size:12px;color:#C8A882;line-height:1.6">Autoriza el almacenamiento de tus respuestas para generar tu Mapa Emocional personalizado. Tus datos no serán compartidos y solo se usarán para generar tu informe completo.</p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -339,6 +363,8 @@ function totalPags(){return Math.ceil(PQ.length/POR_PAG)}
 function ini(){return pag*POR_PAG}
 function fin(){return Math.min(ini()+POR_PAG,PQ.length)}
 
+var guardarDatos = false;
+
 function iniciar(){
   const n=document.getElementById("inp-nombre").value.trim();
   const e=document.getElementById("inp-email").value.trim();
@@ -346,12 +372,19 @@ function iniciar(){
   const m=document.getElementById("inp-momento").value;
   const err=document.getElementById("error-form");
   const emailOk=/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e);
-  console.log("iniciar called",n,e,p,m); if(!n){err.textContent="Por favor escribe tu nombre";err.style.display="block";return}
+  if(!n){err.textContent="Por favor escribe tu nombre";err.style.display="block";return}
   if(!emailOk){err.textContent="Por favor escribe un correo válido";return}
   if(!p){err.textContent="Por favor selecciona tu país";return}
   if(!m){err.textContent="Por favor selecciona tu momento de vida";return}
   err.textContent="";nombre=n;
   document.getElementById("p-bienvenida").style.display="none";
+  document.getElementById("p-consentimiento").style.display="block";
+  window.scrollTo(0,0);
+}
+
+function elegirConsentimiento(guardar){
+  guardarDatos = guardar;
+  document.getElementById("p-consentimiento").style.display="none";
   document.getElementById("p-test").style.display="block";
   renderTest();window.scrollTo(0,0);
 }
@@ -444,17 +477,17 @@ function calcular(){
 
   var estadosHTML='';
   estadosHTML+='<div class="res-estado-item"><div class="res-icono" style="background:radial-gradient(circle,#FFE066 30%,#C8960A 100%)">☀</div><div><p class="res-estado-nombre">Sol · '+solP+'%</p><p class="res-estado-desc">Representa la energía que ya brilla desde tu centro: aquello que se siente claro, vivo y en coherencia contigo.</p></div></div>';
-  estadosHTML+='<div class="res-estado-item"><div class="res-icono" style="background:radial-gradient(circle,#E8F4FA 30%,#7AAFC4 100%)">☁</div><div><p class="res-estado-nombre">Cielo · '+cieloPct+'%</p><p class="res-estado-desc">Representa la energía que está en movimiento: aquello que busca dirección, forma y comprensión.</p></div></div>';
-  estadosHTML+='<div class="res-estado-item"><div class="res-icono" style="background:radial-gradient(circle,#E0DEDC 30%,#888880 100%)">☁</div><div><p class="res-estado-nombre">Nube · '+nubePct+'%</p><p class="res-estado-desc">Representa la energía cubierta: aquello que aún espera claridad, pero que sigue perteneciendo a tu propio cielo.</p></div></div>';
+  estadosHTML+='<div class="res-estado-item"><div class="res-icono" style="background:radial-gradient(circle,#E8F4FA 30%,#7AAFC4 100%)"><span style="filter:brightness(2)">☁</span></div><div><p class="res-estado-nombre">Cielo · '+cieloPct+'%</p><p class="res-estado-desc">Representa la energía que está en movimiento: aquello que busca dirección, forma y comprensión.</p></div></div>';
+  estadosHTML+='<div class="res-estado-item"><div class="res-icono" style="background:radial-gradient(circle,#555 30%,#2a2a2a 100%)"><span style="color:#111;font-size:22px">☁</span></div><div><p class="res-estado-nombre">Nube · '+nubePct+'%</p><p class="res-estado-desc">Representa la energía cubierta: aquello que aún espera claridad, pero que sigue perteneciendo a tu propio cielo.</p></div></div>';
   document.getElementById("res-estados").innerHTML=estadosHTML;
 
   // Journey map con cilindros
   const jEntries=Object.entries(jP);
-  const svgW=540,svgH=340,baseY=200,maxH=130,cylW=100,cylH=12;
+  const svgW=540,svgH=420,baseY=200,maxH=130,cylW=100,cylH=12;
   const jPos=[
-    {x:95,label:"RecordarSer",sub:"Visión de tu historia",desc:"Conexión armónica con tu esencia, raíces y origen",fc:"rgba(240,185,20,.15)",sc:"rgba(195,150,8,.55)",icon:"△",ecolor:"#C8960A"},
-    {x:270,label:"VivirSer",sub:"Visión de tu presente",desc:"Conexión con tu existencia y el aquí y el ahora",fc:"rgba(200,80,70,.13)",sc:"rgba(180,60,50,.48)",icon:"∞",ecolor:"#B84030"},
-    {x:445,label:"CrearSer",sub:"Visión de tu futuro",desc:"Conexión con la imaginación y el mundo de posibilidades",fc:"rgba(100,140,200,.13)",sc:"rgba(80,120,180,.48)",icon:"◎",ecolor:"#5080B0"}
+    {x:95,label:"RecordarSer",sub:"Visión de tu historia",desc:"Conexión con tu esencia y tu historia. Recordar quién eres.",fc:"rgba(240,185,20,.15)",sc:"rgba(195,150,8,.55)",icon:"△",ecolor:"#C8960A"},
+    {x:270,label:"VivirSer",sub:"Visión de tu presente",desc:"Conexión con tu existencia y el momento presente. Vivir lo que eres en plenitud.",fc:"rgba(200,80,70,.13)",sc:"rgba(180,60,50,.48)",icon:"∞",ecolor:"#B84030"},
+    {x:445,label:"CrearSer",sub:"Visión de tu futuro",desc:"Conexión con tu poder creativo y el mundo infinito de las posibilidades. Crear y manifestar.",fc:"rgba(100,140,200,.13)",sc:"rgba(80,120,180,.48)",icon:"◎",ecolor:"#5080B0"}
   ];
   const hts=jEntries.map(function(e){return Math.max(22,Math.round((e[1]/5)*maxH));});
   const pts=jPos.map(function(p,i){return {x:p.x,y:baseY-hts[i]};});
@@ -466,7 +499,7 @@ function calcular(){
     var fc=esr ? "rgba(139,58,15,.14)" : p.fc;
     var sc=esr ? "rgba(139,58,15,.55)" : p.sc;
     var textColor=esr ? "#8B3A0F" : p.ecolor;
-    var labelColor=esr ? "#8B3A0F" : "rgba(55,38,12,.72)";
+    var labelColor=esr ? "#8B3A0F" : "rgba(55,38,12,.75)";
     svg+='<rect x="'+(p.x-cylW/2)+'" y="'+ty+'" width="'+cylW+'" height="'+h+'" rx="3" fill="'+fc+'" stroke="'+sc+'" stroke-width="1.2"/>';
     svg+='<ellipse cx="'+p.x+'" cy="'+ty+'" rx="'+(cylW/2)+'" ry="'+(cylH/2)+'" fill="'+fc+'" stroke="'+sc+'" stroke-width="1.2"/>';
     if(h>40){
@@ -475,11 +508,11 @@ function calcular(){
     svg+='<circle cx="'+p.x+'" cy="'+ty+'" r="'+(esr?5:3.5)+'" fill="'+textColor+'" opacity=".85"/>';
     svg+='<text x="'+p.x+'" y="'+(ty-28)+'" text-anchor="middle" font-size="14" fill="'+textColor+'">'+p.icon+'</text>';
     svg+='<text x="'+p.x+'" y="'+(ty-13)+'" text-anchor="middle" font-size="10.5" font-weight="bold" fill="'+labelColor+'">'+p.label+'</text>';
-    var words=p.desc.split(' ');var descLines=[];var cur='';words.forEach(function(w){if((cur+' '+w).trim().length>18&&cur){descLines.push(cur.trim());cur=w;}else{cur=(cur+' '+w).trim();}});if(cur)descLines.push(cur);
-    descLines.slice(0,3).forEach(function(dl,di){
-      svg+='<text x="'+p.x+'" y="'+(baseY+14+di*11)+'" text-anchor="middle" font-size="8.5" fill="rgba(75,55,18,.55)">'+dl+'</text>';
+    var words=p.desc.split(' ');var descLines=[];var cur='';words.forEach(function(w){if((cur+' '+w).trim().length>22&&cur){descLines.push(cur.trim());cur=w;}else{cur=(cur+' '+w).trim();}});if(cur)descLines.push(cur);
+    descLines.slice(0,5).forEach(function(dl,di){
+      svg+='<text x="'+p.x+'" y="'+(baseY+16+di*13)+'" text-anchor="middle" font-size="9" fill="rgba(55,38,12,.72)">'+dl+'</text>';
     });
-    if(esr) svg+='<text x="'+p.x+'" y="'+(baseY+52)+'" text-anchor="middle" font-size="8.5" fill="#8B3A0F">← experiencia sugerida</text>';
+    if(esr) svg+='<text x="'+p.x+'" y="'+(baseY+90)+'" text-anchor="middle" font-size="8.5" fill="#8B3A0F">← Punto de conexión a fortalecer</text>';
   });
   svg+='</svg>';
   document.getElementById("res-journey-body").innerHTML=svg;
@@ -506,6 +539,12 @@ function calcular(){
   function mostrarStatus(tipo, msg){
     statusEl.className = 'guardado-status ' + tipo;
     statusEl.textContent = msg;
+  }
+
+  // Solo guardar si el usuario lo autorizó
+  if(!guardarDatos){
+    document.getElementById("guardado-status").style.display="none";
+    return;
   }
 
   mostrarStatus('enviando', 'Guardando tus resultados...');
@@ -545,7 +584,7 @@ function corazonPath(ctx,cx,cy,s){
 function dibujarCorazon(icc,solP,cieloPct,nubePct){
   const cv=document.getElementById("res-canvas");
   const ctx=cv.getContext("2d");
-  const W=cv.width,H=cv.height,cx=W/2,cy=H/2+5;
+  const W=cv.width,H=cv.height,cx=W/2,cy=H/2-20;
   ctx.clearRect(0,0,W,H);
   const solO=Math.round(solP/10),cieloO=Math.round(cieloPct/10);
   const maxS=W*0.470;
@@ -586,10 +625,10 @@ function dibujarCorazon(icc,solP,cieloPct,nubePct){
       ctx.strokeStyle=sc;ctx.lineWidth=lw;ctx.stroke();
       if(i%2===0){
         const pct=i*10;
-        const col=i<=solO?"rgba(130,94,0,.65)":i<=solO+cieloO?"rgba(25,85,115,.55)":"rgba(108,106,100,.42)";
-        const topY=cy-s*0.60;
-        ctx.font="9.5px Arial,sans-serif";ctx.fillStyle=col;ctx.textAlign="center";
-        ctx.fillText(pct+"%",cx,topY-2);
+        const col='rgba(245,240,230,.85)';
+        const botY=cy+s*0.60+11;
+        ctx.font="bold 9px Arial,sans-serif";ctx.fillStyle=col;ctx.textAlign="center";
+        ctx.fillText(pct+"%",cx,botY);
       }
     }
 
